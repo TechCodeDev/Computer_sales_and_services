@@ -1,0 +1,162 @@
+<html>
+
+<head>
+<img src="images/11.jpg" width=1350px height=100px/>
+<hr>
+<h3><b><center> SERVICE FORM </center></b></h3><hr>
+<br>
+<style>
+
+.blue-button {
+	text-decoration:none;
+	font-family:arial;
+	font-size:24px;
+	border-radius:9px;
+	padding:24px 30px;
+	background-color:#03a9f4;
+	color:#ffffff;
+	margin-left:100px;
+}
+.blue-button:hover {
+	text-decoration:none;
+	background-color:#015798;
+	color:#ffffff;
+	transition:0.5s;
+}
+body {
+	padding:0px;
+}
+</style>	
+</head>
+
+<body bgcolor="99ccff">
+<form action="services.php">
+<h4 bgcolor="666666"><center>CUSTOMER DETAILS</CENTER></h4>
+<table style="border-spacing:20px;">
+<tr>
+	<td>
+customer no:
+<input type="text" name="cust_no" placeholder="ex. 100">
+	</td>
+	<td>
+
+customer name:
+<input type="text"  name="cust_name" placeholder="ex. harsha" >
+	</td>
+	<td>
+
+
+customer phone-no:
+<input type="text" name="cust_phn" placeholder="ex. 9108330206">
+	</td>
+	<td>
+
+customer address:
+<input type="text" name="cust_addr" placeholder="ex. jayanagar,tumkur">
+<br>
+
+	</td>
+	</tr>
+	<tr>
+	<td>
+customer email:
+<input type="text" name="cust_email" placeholder="ex. csas@gmail.com">
+<br>
+
+	</td>
+	<td colspan="3">
+	</td>
+	</tr>
+	</table>
+	<hr>
+<h4 bgcolor="666666"><center>DEVICE DETAILS</CENTER></h4><hr>
+<table style="border-spacing:20px;">
+<tr>
+<td>
+<br>
+Device type:
+
+<input type="text" name="dev_type" placeholder="ex. laptop/desktop/cpu/others">
+
+<br></td></tr><br>
+
+<br>
+<tr>
+<td>
+company name:
+
+<input type="text" name="cmp name" placeholder="ex. HP">
+</td>
+<td>
+
+device model number:
+
+<input type="text" name="dev_ver" placeholder="HP X360 13-S101TU">
+</td>
+<td>
+color:
+
+<input type="text" name="color" placeholder="ex. black">
+</td>
+</tr>
+</table>
+<br>
+<br>
+<hr>
+<h4 bgcolor="666666"><center>PROBLEM DISCRIPTION</CENTER></h4><hr>
+
+<br>
+Problem type:
+<input type="text" name="prob_type" placeholder="ex. sw/hw">
+(software/hardware)
+<br>
+<br>
+<br>
+problem details:
+<br>
+<textarea cols="50" rows="10" name="prob_det" placeholder="ex. OS is corrupt" ></textarea>
+<br>
+<br>
+<hr>
+<h3 bgcolor="ffffff"><center>SUBMISSION AND RETURN DATES</center></h3><HR>
+<table style="border-spacing:20px;">
+<tr>
+<br><td>
+submission date:
+<input type="date" name="sub_date"/></td>
+<td>
+Return date:
+<input type="date" name="ret_date" />
+</td></tr><br>
+<br></table>
+<hr>
+<h3 bgcolor="666666" ><center>PAYMENT DETAILS</center></h3><hr>
+<table style="border-spacing:20px;">
+<tr>
+<br>
+Service charge:
+<input type="text" name="ser_amt" placeholder="250">
+<br></tr>
+<br><tr>
+payment_type:
+<br>
+<input type="radio" name="pay_type" value="cash" />cash
+<br>
+<input type="radio" name="pay_type" value="paytm"/>paytm
+<br>
+<br>
+FOR PAYTM SCAN THE CODE GIVEN BELOW
+<BR>
+<BR>
+<img src="images/paytm.png" width=400px height=400px>
+
+<br>
+<br>
+<br>
+</tr>
+</table>
+<center><input type="submit" name="submit" value="register" class="blue-button"/></center>
+
+</form>
+</body>
+</html>

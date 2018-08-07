@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<img src="images/11.jpg" width=1350px height=100px/>
+<hr>
+<h3><b><center> ADMIN LOGIN </center></b></h3><hr>
+<br>
+<style>
+
+.blue-button {
+	text-decoration:none;
+	font-family:arial;
+	font-size:24px;
+	border-radius:9px;
+	padding:10px 15px;
+	background-color:#03a9f4;
+	color:#ffffff;
+	margin-left:0px;
+}
+.blue-button:hover {
+	text-decoration:none;
+	background-color:#015798;
+	color:#ffffff;
+	transition:0.5s;
+}
+body {
+	padding:0px;
+}
+</style>	
+</head>
+<body background="images/mild2.jpg">
+<center>
+<form method="POST">
+<table border="1" width="300" height="200">
+<tr>
+<td align="center" colspan="5">LOGIN</td>
+</tr>
+<tr>
+<td><b>admin name:</b></td><td><input type="text" id="admin" placeholder="enter the admin name"/></td>
+</tr>
+<tr>
+<td><b>password:</b></td><td><input type="password" id="pass" placeholder="enter the password"/></td>
+</tr>
+<tr>
+<td align="center" colspan="5"><input type="submit" name="submit" onclick="check(this.form)" value="login" class="blue-button" /></td>
+</tr>
+</table></center>
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.admin.value=="admin" && form.pass.value=="pass")
+{
+window.open('database.html')
+}
+else
+{
+alert("error password or admin name")
+}
+}
+</script>
+</body>
+</html>

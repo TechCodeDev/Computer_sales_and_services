@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<img src="images/11.jpg" width=1350px height=100px/>
+<hr>
+<h3><b><center> PAYMENT DETAILS </center></b></h3><hr>
+<br>
+<style>
+
+.blue-button {
+	text-decoration:none;
+	font-family:arial;
+	font-size:24px;
+	border-radius:9px;
+	padding:15px 20px;
+	background-color:#03a9f4;
+	color:#ffffff;
+	margin-left:100px;
+}
+.blue-button:hover {
+	text-decoration:none;
+	background-color:#015798;
+	color:#ffffff;
+	transition:0.5s;
+}
+body {
+	padding:0px;
+}
+</style>	
+</head>
+<body background="images/mild2.jpg" >
+<form action="spayment.php">
+<center><table border="1" width="600" height="500">
+
+<tr>
+<td colspan="5" align="center" bgcolor="grey"><h3>PAYMENT DETAILS</h3></td>
+</tr>
+<tr>
+<td><b>customer no:</b></td><td><input type="text" name="cust_no" placeholder="ex. 100"></td>
+</tr>
+
+
+<tr>
+<td><b>Device NO:</b></td><td><input type="text" name="dev_no" ></td>
+</tr>
+
+<tr>
+<td><b>product cost:</b></td><td><input type="text" name="ser_amt" placeholder="30000"></td>
+</tr>
+<tr>
+<td><b>payment type:</b></td><td><input type="radio" name="pay_type" value="cash" />cash<input type="radio" name="pay_type" value="card"/>card</td>
+</tr>
+
+<tr>
+<td colspan="5" align="center"><input type="submit" name="submit" value="SUBMIT" class="blue-button"/></td>
+</tr>
+</table></center>
+</form>
+</body>
+</html>
+

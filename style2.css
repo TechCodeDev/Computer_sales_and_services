@@ -1,0 +1,37 @@
+body {
+	font-family:arial;
+	text-allign:center;
+}
+#navigation {
+	width:100%;
+	height:75%;
+	background:url(images/2.jpg);
+	background-size:cover;
+}
+#navigation_wrap {
+	height:100px;
+	width:90%;
+	background:#666666;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:300px;
+	opacity:0.7;
+	filter:alpha(opacity=70);
+}
+#navigation_wrap ul li {
+	list-style:none;
+	display:inline;
+	font-weight:bold;
+	height:100px;
+	padding:100px;
+}
+#navigation_wrap a {
+	color:white;
+	text-decoration:none;
+	padding:10px;
+}
+#navigation_wrap ul li :hover {
+	background:red;
+	transition:all 0.1s;
+	
+}

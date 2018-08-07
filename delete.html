@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<img src="images/11.jpg" width=1350px height=100px/>
+<hr>
+<h3><b><center> DELETE RECORD </center></b></h3><hr>
+<br>
+<style>
+
+.blue-button {
+	text-decoration:none;
+	font-family:arial;
+	font-size:24px;
+	border-radius:9px;
+	padding:10px 15px;
+	background-color:#03a9f4;
+	color:#ffffff;
+	margin-left:0px;
+}
+.blue-button:hover {
+	text-decoration:none;
+	background-color:#015798;
+	color:#ffffff;
+	transition:0.5s;
+}
+body {
+	padding:0px;
+}
+</style>	
+</head>
+<body background="images/mild2.jpg">
+<center>
+<form action="delete.php" method="POST">
+<table border="1" width="300" height="200">
+<tr>
+<td align="center" colspan="5"><b>DELETE CUSTOMER</b></td>
+</tr>
+<tr>
+<td><b>CUSTOMER NUMBER</b></td><td><input type="text" name="cust_no" placeholder="enter the customer no"/></td>
+</tr>
+
+<tr>
+<td align="center" colspan="5"><input type="submit" name="submit" value="delete" class="blue-button" /></td>
+</tr>
+</table></center>
+</form>
+
+</body>
+</html>
